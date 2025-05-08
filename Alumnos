@@ -1,0 +1,8 @@
+CREAR TABLA alumnos (
+      id_alumno INT NO NULO AUTO_INCREMENT,
+      nombre VARCHAR ( 32 ) NOT NULL ,
+      apellidos VARCHAR ( 64 ) NOT NULl ,
+      fecha_nac FECHA NO NULA ,
+      CLAVE ÚNICA id_profesor_uq (id_profesor)
+);
+
